@@ -26,7 +26,19 @@ Takımımızın kendi imkanlarıyla ürettiği roket motoru ile uçurulan [İSPA
 
 > **Yarışma Aviyonik Sistem**
 
-Teknofest Roket Yarışması Orta İrtifa Kategorisi için hazırlanılmıştır. 
+Teknofest Roket Yarışması Orta İrtifa Kategorisi için hazırlanılmıştır. Kart çizimi yapılırken Altium programı üzerinden tüm ürün gruplarında elektronik komponentlerin bulunduğu şematik ve pcb kütüphanesi oluşturulmuştur. Kartlar yurt dışında üretilip, dizgisi kendi takım atölyemizde yapılmıştır.
+
+<details>
+<summary>Özellikleri</summary>
+ 
+- Kartların arka yüzünde STM32F103RB işlemci olup olup ön yüzünde ise kullanacağımız sensörler, gps, haberleşme, ateşleme devresi ve voltaj regülatörü bulunuyor. 
+- Kartımız 7-12V ile beslenmekte ve üzerinde güç ledi bulunmaktadır. 
+- Sensör için BME280 basınç sensörü ile ADXL345 ivme sensörü, gps modülü olarak NEO-6M, yer istasyonu ile haberleşmek için LORA modülü kullanılmıştır. 
+- Voltaj regülatörü 3.3V 1.5A çıkış vermektedir.
+- Ateşleme devresi için mosfet ile optoptokuplör kullanılmıştır.  
+- Senörler için I2C, GPS ve LORA için UART protokolü kullanılmıştır.
+- Ana ve Yedek Sistem kartındaki verileri SPI haberleşmesi ile Haberleşme kartına aktarıyoruz. 
+</details>
 
 | Ana Sistem | Yedek Sistem | Haberleşme | Görev Yükü |
 | ------------ | ------------- | ------------- | ------------- |
