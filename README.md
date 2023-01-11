@@ -26,7 +26,10 @@ Takımımızın kendi imkanlarıyla ürettiği roket motoru ile uçurulan [İSPA
 
 > **Yarışma Aviyonik Sistem**
 
-Teknofest Roket Yarışması Orta İrtifa Kategorisi için hazırlanılmıştır. Kart çizimi yapılırken Altium programı üzerinden tüm ürün gruplarında elektronik komponentlerin bulunduğu şematik ve pcb kütüphanesi oluşturulmuştur. Kartlar yurt dışında üretilip, dizgisi kendi takım atölyemizde yapılmıştır.
+Teknofest Roket Yarışması için hazırlanılmıştır. 
+Kart çizimi yapılırken Altium programı üzerinden tüm ürün gruplarında elektronik komponentlerin bulunduğu şematik ve pcb [kütüphanesi](https://github.com/atalayroket/atalay_donanimtasarimi) oluşturulmuştur. 
+Kullandığımız sensörlerin yazılım kütüphanelerine [linkten](https://github.com/atalayroket/atalay_gomuluyazilim) ulaşabilirsiniz.
+Yer istasyonuna iletilen veriler gürüntülenmesi için yapılan [arayüz](https://github.com/atalayroket/atalay_arayuz) ayrıntılarına ulaşabilir, ayrıca testlerde kullandığımız basit serial port uygulamasını indirip kullanabilirsiniz.
 
 <details>
 <summary>Özellikleri</summary>
