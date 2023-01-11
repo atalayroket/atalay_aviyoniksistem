@@ -27,7 +27,7 @@ Takımımızın kendi imkanlarıyla ürettiği roket motoru ile uçurulan [İSPA
 > **Yarışma Aviyonik Sistem**
 
 Teknofest Roket Yarışması için hazırlanılmıştır. 
-Çalışma yaparken tüm ürün gruplarında elektronik komponentlerin bulunduğu [donanım tasarımı kütüphanesi](https://github.com/atalayroket/atalay_donanimtasarimi) ile [gömülü yazılım kütüphanesi](https://github.com/atalayroket/atalay_gomuluyazilim) oluşturulmuştur. 
+Çalışma yaparken tüm ürün gruplarında elektronik komponentlerin bulunduğu [donanım tasarımı](https://github.com/atalayroket/atalay_donanimtasarimi) kütüphanesi ile [gömülü yazılım](https://github.com/atalayroket/atalay_gomuluyazilim) kütüphanesi oluşturulmuştur. 
 Yer istasyonuna iletilen verilerin gürüntülenmesi için yarışmaya uygun [arayüz](https://github.com/atalayroket/atalay_arayuz) yapılmıştır.
 
 <details>
