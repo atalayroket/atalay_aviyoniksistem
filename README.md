@@ -4,7 +4,7 @@
 
 > **Ticari Aviyonik Sistem**
 
-Takımımızın kendi imkanlarıyla ürettiği roket motoru ile uçurulan [İSPAT 01](https://www.instagram.com/p/CeEz-f6FkrU/) ve [İSPAT 02](https://www.instagram.com/p/CmLr6XANZut/) roketlerimizin aviyonik sistemi olarak kullanılmış ve başarılı bir şekilde roketin paraşütlerini açarak roketlerimizi sağlam şekilde yere indirmiştir. 
+Takımımızın kendi imkanlarıyla ürettiği roket motoru ile uçurulan [ISPAT 01](https://www.instagram.com/p/CeEz-f6FkrU/) ve [ISPAT 02](https://www.instagram.com/p/CmLr6XANZut/) roketlerimizin aviyonik sistemi olarak kullanılmış ve başarılı bir şekilde roketin paraşütlerini açarak roketlerimizi sağlam şekilde yere indirmiştir. 
 
 <details>
 <summary>Özellikleri</summary>
