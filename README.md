@@ -40,8 +40,8 @@ Yer istasyonuna iletilen verilerin gürüntülenmesi için yarışmaya uygun [ar
 - Ateşleme devresi için mosfet ile optoptokuplör kullanılmıştır.  
 - Senörler için I2C, GPS ve LORA için UART protokolü kullanılmıştır.
 - Ana ve Yedek Sistem kartındaki verileri SPI haberleşmesi ile Haberleşme kartına aktarıyoruz. 
-- Arayüz C# dili ile Windows Forms uygulamasında yapılmıştır.
-- Kayıt işlemini Excel ile yapıp, hakem yer istasyonuna veri gönderebiliyor.
+- Yer istasyonu arayüzü, C# dili ile Windows Forms uygulamasında yapılmıştır.
+- Kayıt işlemini Excel ile yapıp, hakem yer istasyonuna veri göndermektedir.
 </details>
 
 | Ana Sistem | Yedek Sistem | Haberleşme | Görev Yükü |
