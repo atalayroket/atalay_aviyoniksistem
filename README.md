@@ -24,7 +24,7 @@ Takımımızın kendi imkanlarıyla ürettiği roket motoru ile uçurulan [İSPA
 <br>
 <br>
 
-> **Roket Yarışması**
+> **Yarışma Aviyonik Sistem**
 
 Teknofest Roket Yarışması Orta İrtifa Kategorisi için hazırlanılmıştır. 
 
