@@ -35,11 +35,13 @@ Yer istasyonuna iletilen verilerin gürüntülenmesi için yarışmaya uygun [ar
  
 - Kartların arka yüzünde STM32F103RB işlemci olup olup ön yüzünde ise kullanacağımız sensörler, gps, haberleşme, ateşleme devresi ve voltaj regülatörü bulunuyor. 
 - Kartımız 7-12V ile beslenmekte ve üzerinde güç ledi bulunmaktadır. 
-- Sensör için BME280 basınç sensörü ile ADXL345 ivme sensörü, gps modülü olarak NEO-6M, yer istasyonu ile haberleşmek için LORA modülü kullanılmıştır. 
 - Voltaj regülatörü 3.3V 1.5A çıkış vermektedir.
-- Ateşleme devresi için mosfet ile optoptokuplör kullanılmıştır.  
+- Ateşleme devresi için mosfet ile optoptokuplör kullanılmıştır.
+- Sensör için BME280 basınç sensörü ile ADXL345 ivme sensörü, gps modülü olarak NEO-6M, yer istasyonu ile haberleşmek için LORA iletişim modülü kullanılmıştır. 
 - Senörler için I2C, GPS ve LORA için UART protokolü kullanılmıştır.
 - Ana ve Yedek Sistem kartındaki verileri SPI haberleşmesi ile Haberleşme kartına aktarıyoruz. 
+- İletişim modülümüz 433MHz çalışma frekansında 8 km mesafede veri alışverişi yapabilmektedir.
+- Yer İstasyonu kartımızdan, Roket ve Görev Yükü bilgileri seri port ile arayüzde gösterilmiş ve Excel ile kaydetme işlemi yapılmıştır. Ayrıca gelen veriler seri port üzerinden başka bir bilgisayara gönderebilmektedir.
 </details>
 
 | Ana Sistem | Yedek Sistem | Haberleşme | Görev Yükü |
