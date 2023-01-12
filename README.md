@@ -27,8 +27,6 @@ Takımımızın kendi imkanlarıyla ürettiği roket motoru ile uçurulan [ISPAT
 > **Yarışma Aviyonik Sistem**
 
 Teknofest Roket Yarışması için hazırlanılmıştır. 
-Çalışma yaparken tüm ürün gruplarında elektronik komponentlerin symbol ve footprintlerin veritabanında tutulduğu [donanım tasarımı](https://github.com/atalayroket/atalay_donanimtasarimi) kütüphanesi ile [gömülü yazılım](https://github.com/atalayroket/atalay_gomuluyazilim) kütüphanesi oluşturulmuştur. 
-Yer istasyonuna iletilen verilerin gürüntülenmesi için yarışmaya uygun [arayüz](https://github.com/atalayroket/atalay_arayuz) yapılmıştır.
 
 <details>
 <summary>Özellikleri</summary>
