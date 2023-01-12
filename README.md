@@ -37,9 +37,10 @@ Yer istasyonuna iletilen verilerin gürüntülenmesi için yarışmaya uygun [ar
 - Kartımız 7-12V ile beslenmekte ve üzerinde güç ledi bulunmaktadır. 
 - Voltaj regülatörü 3.3V 1.5A çıkış vermektedir.
 - Ateşleme devresi için mosfet ile optoptokuplör kullanılmıştır.
-- Sensör için BME280 basınç sensörü ile ADXL345 ivme sensörü, gps modülü olarak NEO-6M, yer istasyonu ile haberleşmek için LORA iletişim modülü kullanılmıştır. 
-- Senörler için I2C, GPS ve LORA için UART protokolü kullanılmıştır.
+- Sensör için BME280 basınç sensörü ile ADXL345 ivme sensörü, gps modülü olarak NEO6M, yer istasyonu ile haberleşmek için LORA iletişim modülü kullanılmıştır. 
+- Senörler için I2C, gps ve iletişim modülü için UART protokolü kullanılmıştır.
 - Ana ve Yedek Sistem kartındaki verileri SPI haberleşmesi ile Haberleşme kartına aktarıyoruz. 
+- Sensör verileri Kalman Filtresinden geçirilmektedir. 
 - İletişim modülümüz 433MHz çalışma frekansında 8 km mesafede veri alışverişi yapabilmektedir.
 - Yer İstasyonu kartımızdan, Roket ve Görev Yükü bilgileri seri port ile arayüzde gösterilmiş ve Excel ile kaydetme işlemi yapılmıştır. Ayrıca gelen veriler seri port üzerinden başka bir bilgisayara gönderebilmektedir.
 </details>
