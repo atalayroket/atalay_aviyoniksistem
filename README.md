@@ -30,8 +30,8 @@ Teknofest Roket Yarışması için hazırlanılmıştır.
 
 <details>
 <summary>Özellikleri</summary>
- 
-- Kartların arka yüzünde STM32F103RB işlemci olup olup ön yüzünde ise kullanacağımız sensörler, gps, haberleşme, ateşleme devresi ve voltaj regülatörü bulunuyor. 
+- Aviyonik sistemimiz 4 uçuş bilgisayarı ve 1 yer istasyonudan oluşmaktadır.
+- Kartlarımızın arka yüzünde STM32F103RB işlemci olup olup ön yüzünde ise kullanacağımız sensörler, gps, haberleşme, ateşleme devresi ve voltaj regülatörü bulunuyor. 
 - Kartımız 7-12V ile beslenmekte ve üzerinde güç ledi bulunmaktadır. 
 - Voltaj regülatörü 3.3V 1.5A çıkış vermektedir.
 - Ateşleme devresi için mosfet ile optoptokuplör kullanılmıştır.
